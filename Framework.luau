@@ -158,7 +158,7 @@ local themes = {
 }
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Dummy Kawaii"
+ScreenGui.Name = "Spectrum x Roblox"
 ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -4520,8 +4520,8 @@ function Library:Window(p)
 			if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'Dummy Kawaii',
-					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Title = '🤖Spectrum Assistant🍀',
+					Desc = '🎮 Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI !!',
 					Time = 10
 				})
 			end
