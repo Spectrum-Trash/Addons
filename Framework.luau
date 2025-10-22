@@ -2,8 +2,8 @@ Library = {}
 SaveTheme = {}
 
 local themes = {
-	index = {'Dark', 'Amethyst'},
-	Amethyst = {
+	index = {'Dark', 'Spectrum'},
+	Spectrum = {
 		['Shadow'] = Color3.fromRGB(24, 24, 31),
 		['Background'] = Color3.fromRGB(29, 28, 38),
 		['Page'] = Color3.fromRGB(24, 24, 31),
@@ -1045,11 +1045,11 @@ end
 
 function Library:Window(p)
 
-	local Title = p.Title or 'null'
-	local Desc = p.Desc or ''
-	local Icon = p.Icon or 'door-open'
-	local Theme = p.Theme or 'Dark'
-	local Keybind = p.Config.Keybind or Enum.KeyCode.LeftControl
+	local Title = p.Title or 'Project Spectrum {8.0}'
+	local Desc = p.Desc or 'by xZPUHigh & Special Edition // discord.gg/C3MpUNwsDU'
+	local Icon = p.Icon or 'rbxassetid://81330806045917'
+	local Theme = p.Theme or 'Spectrum'
+	local Keybind = p.Config.Keybind or Enum.KeyCode.RightControl
 	local Size = p.Config.Size or UDim2.new(0, 530,0, 400)
 
 	local R, HAA = false, false
