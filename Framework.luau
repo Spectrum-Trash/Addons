@@ -1028,7 +1028,7 @@ local themes = {
 
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "Dummy Kawaii"
+ScreenGui.Name = "Spectrum x Roblox"
 ScreenGui.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1915,11 +1915,11 @@ end
 
 function Library:Window(p)
 
-	local Title = p.Title or 'null'
-	local Desc = p.Desc or ''
-	local Icon = p.Icon or 'door-open'
-	local Theme = p.Theme or 'Dark'
-	local Keybind = p.Config.Keybind or Enum.KeyCode.LeftControl
+	local Title = p.Title or 'Project Spectrum {8.0}'
+	local Desc = p.Desc or 'by xZPUHigh & Special Edition // discord.gg/C3MpUNwsDU'
+	local Icon = p.Icon or 'rbxassetid://81330806045917'
+	local Theme = p.Theme or 'Spectrum'
+	local Keybind = p.Config.Keybind or Enum.KeyCode.RightControl
 	local Size = p.Config.Size or UDim2.new(0, 530,0, 400)
 
 	local R, HAA = false, false
@@ -5387,11 +5387,11 @@ function Library:Window(p)
 				open:Play()
 			end
 
-			if not firsttime then
+				if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'Dummy Kawaii',
-					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
+					Title = '🤖Spectrum Assistant🍀',
+					Desc = '🎮 Press the <font color="#4400ffff" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI !!',
 					Time = 10
 				})
 			end
