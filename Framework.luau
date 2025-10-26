@@ -4,7 +4,7 @@ SaveTheme = {}
 local themes = {
 	index = {
 		'Dark', 'Amethyst', 'Ocean', 'Crimson', 'Solarized', 'Emerald',
-		'Midnight', 'RoseQuartz', 'Cyberpunk', 'Desert', 'Frost', 'Spectrum', 'DarkBlue'
+		'Midnight', 'RoseQuartz', 'Cyberpunk', 'Desert', 'Frost', 'Galaxy', 'Spectrum'
 	},
 
 	Amethyst = {
@@ -869,7 +869,7 @@ local themes = {
 		}
 	},
 
-	Spectrum = {
+	Galaxy = {
 		['Shadow'] = Color3.fromRGB(15, 10, 25),
 		['Background'] = Color3.fromRGB(25, 15, 40),
 		['Page'] = Color3.fromRGB(20, 10, 30),
@@ -947,7 +947,7 @@ local themes = {
 		}
 	},
 
-	DarkBlue = {
+	Spectrum = {
 		['Shadow'] = Color3.fromRGB(0, 0, 20),
 		['Background'] = Color3.fromRGB(8, 8, 24),
 		['Page'] = Color3.fromRGB(5, 5, 20),
